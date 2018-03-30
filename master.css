@@ -1,12 +1,24 @@
-#first{
-  text-decoration: underline;
+.first ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
 }
-#second{
-  text-decoration: line-through;
+.first {
+  width: 700px;
+  border: 1px solid blue;
+  background: #2696E8;
+  margin: 0px auto;
 }
-#third{
-  text-decoration: underline;
+.first a{
+  padding: 10px;
+  color: white;
+  display: block;
+  text-decoration: none;
 }
-table{
-  border-width:1px;
+.first a:hover{
+  background: white;
+  color:#2696E8;
 }
