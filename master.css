@@ -1,29 +1,31 @@
 .first{
-  width: 50px;
-  height: 50px;
-  border: red 1px solid;
-  position: absolute;
+  width: 500px;
+  height: 500px;
+  border: red 1px dotted;
+  position: relative;
   top:10px;
   left: 10px;
-  background-color: red;
-  z-index: 1;
-}
-.second{
-  width: 50px;
-  height: 50px;
-  border: blue 1px solid;
-  position: absolute;
-  top:40px;
-  left: 40px;
-  background-color: blue;
+  background-color: green;
   z-index: 0;
 }
+.second{
+  width: 90px;
+  height: 90px;
+  border: blue 1px solid;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  z-index: 1;
+  background-color: white;
+}
 .third{
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
   border: green 1px solid;
-  position: absolute;
-  top:70px;
-  left:70px;
-  background-color: green;
+  position: relative;
+  float: right;
+  top: 50%;
+  right: 30px;
+  z-index: 1;
+  background-color: white;
 }
