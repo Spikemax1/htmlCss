@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .first ul{
   display: flex;
   flex-direction: row;
@@ -21,4 +22,17 @@
 .first a:hover{
   background: white;
   color:#2696E8;
+=======
+#first{
+  text-decoration: underline;
+}
+#second{
+  text-decoration: line-through;
+}
+#third{
+  text-decoration: underline;
+}
+table{
+  border-width:1px;
+>>>>>>> 149392c32eb815a85da3cc68a7108329b8d25175
 }
