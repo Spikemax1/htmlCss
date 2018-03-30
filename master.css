@@ -1,38 +1,6 @@
-<<<<<<< HEAD
 .first ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
-}
-.first {
   width: 700px;
-  border: 1px solid blue;
-  background: #2696E8;
-  margin: 0px auto;
-}
-.first a{
-  padding: 10px;
-  color: white;
-  display: block;
-  text-decoration: none;
-}
-.first a:hover{
-  background: white;
-  color:#2696E8;
-=======
-#first{
-  text-decoration: underline;
-}
-#second{
-  text-decoration: line-through;
-}
-#third{
-  text-decoration: underline;
-}
-table{
-  border-width:1px;
->>>>>>> 149392c32eb815a85da3cc68a7108329b8d25175
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
 }
